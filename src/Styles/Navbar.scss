@@ -1,0 +1,69 @@
+@import "../Variables/Variable.scss";
+
+.Navbar {
+  width: 100%;
+  background-color: $whiteColor;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 60px;
+}
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+.circle
+{
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    background-color: $greyColor;
+    border-radius: 50%;
+}
+
+.circle > img
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.logo {
+  padding-right: 10px;
+}
+.CartContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+.CartContainer > a {
+  padding: 0px 10px;
+}
+.Navbar a {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: $blueColor;
+  text-decoration: none;
+  font-family: $titleFont;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+@media(max-width:780px){
+  .Navbar {
+  width: 100%;
+  background-color: $whiteColor;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+}

@@ -1,0 +1,32 @@
+@import "../Variables/Variable.scss";
+
+.btnCartCount
+{
+    height: 40px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 60px;
+}
+.btnCartCount > img
+{
+   width: 30px;
+   height: 30px;
+   display: flex;
+   align-content: flex-end;
+   justify-content: flex-end;
+}
+.cartNotif
+{   
+    position: absolute;
+    top:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:$whiteColor;
+    background-color:red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size:.6rem;
+}
