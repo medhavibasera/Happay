@@ -1,10 +1,34 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
-## Available Scripts
 
-In the project directory, you can run:
+## 💥 Introduction
+
+Listings page for cards build using React and Redux.
+
+## 🚀 Installation
+
+1. Open github.
+2. Clone the project by running the command in gitbash given below :
+    `git clone [repo-url]`
+   Copy the link from github repo for repo-url. 
+3. Run : 
+    `npm install`
+4. After installation.
+   Run : 
+    `npm start`
+
+## 👨‍💻 Dependencies
+
+react  
+sass
+react - redux
+
+
+## 🛑 Contributor
+
+Medhavi Basera
 
 ### `npm start`
 
